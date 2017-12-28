@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nvdevelopers.radioprogramming.MainActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C Programming Language"
+            android:padding="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbCPP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++ Programming Language"
+            android:padding="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbJAVA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAVA Programming Language"
+            android:padding="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbPHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHP Programming Language"
+            android:padding="10dp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
