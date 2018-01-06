@@ -12,7 +12,7 @@ import java.util.Map;
  */
 
 public class AddRequest extends StringRequest {
-    private static final String URL = "http://192.168.1.3/add.php";
+    private static final String URL = "http://localhost/add.php";
     HashMap<String, String> params;
 
     public AddRequest(String  First, String  Second, Response.Listener<String> listener, Response.ErrorListener errorListener) {
