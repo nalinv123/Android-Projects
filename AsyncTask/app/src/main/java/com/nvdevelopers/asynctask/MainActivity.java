@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         edFirst = findViewById(R.id.edFirst);
         edSecond = findViewById(R.id.edSecond);
         btAdd = findViewById(R.id.btAdd);
-        tvResult = findViewById(R.id.tvResult);
 
         getResultAsynchronously();
     }
